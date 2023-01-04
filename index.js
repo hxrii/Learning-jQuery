@@ -1,4 +1,7 @@
+$("button").click(function(){
+    $("h1").css("color","purple")
+})
 
-$("h1").css("color","red");
-$("h1").text("HELLO");
-$("h1").html("<em> Hi </em>HELLO P");
+$("#hi").keypress((e)=>{
+    console.log(e.key)
+})
