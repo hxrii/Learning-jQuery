@@ -2,6 +2,16 @@ $("button").click(function(){
     $("h1").css("color","purple")
 })
 
-$("#hi").keypress((e)=>{
-    console.log(e.key)
+// $("#hi").keypress((e)=>{
+//     $("h1").text($("h1").text()+e.key);
+// })
+
+
+$("h1").on("mouseover",(e)=>{
+    $("h1").css("color","red");
+    setTimeout((e)=>{
+        $("h1").css("color","black")
+    }, 500)
 })
+
+
