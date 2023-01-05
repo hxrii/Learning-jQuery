@@ -7,11 +7,16 @@ $("button").click(function(){
 // })
 
 
-$("h1").on("mouseover",(e)=>{
-    $("h1").css("color","red");
-    setTimeout((e)=>{
-        $("h1").css("color","black")
-    }, 500)
+// $("h1").on("mouseover",(e)=>{
+//     $("h1").css("color","red");
+//     setTimeout((e)=>{
+//         $("h1").css("color","black")
+//     }, 500)
+// })
+
+
+$("button").on("click",(e)=>{
+    $("h1").toggle();
 })
 
 
