@@ -15,8 +15,12 @@ $("button").click(function(){
 // })
 
 
-$("button").on("click",(e)=>{
-    $("h1").toggle();
-})
+// $("button").on("click",(e)=>{
+//     $("h1").toggle();
+// })
 
+
+$("button").on("click",(e)=>{
+    $("h1").slideToggle();
+})
 
